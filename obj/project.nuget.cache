@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Br542sXcOc8gwZ1+IwggWYb1P3TRW85hL8wqBE8uxY8bI+INmnc2Nd613aN8RP4LQFOJ5snxj8OaTX00yvduLQ==",
+  "dgSpecHash": "bIEYE39va0XdMGF523excPfOaNVUT8+tCSI6JX+mftCilAugzEVAOsx2DQpEy2ohx37312Mc8TdGRqt2b9bosA==",
   "success": true,
-  "projectFilePath": "D:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
+  "projectFilePath": "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rangel\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Rangel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj": {}
+    "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj": {}
   },
   "projects": {
-    "D:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj": {
+    "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
+        "projectUniqueName": "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
         "projectName": "Training",
-        "projectPath": "D:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
+        "projectPath": "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
         "packagesPath": "C:\\Users\\Rangel\\.nuget\\packages\\",
-        "outputPath": "D:\\Trabalhos\\VW_Test_Training\\Training\\obj\\",
+        "outputPath": "d:\\Trabalhos\\VW_Test_Training\\Training\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rangel\\AppData\\Roaming\\NuGet\\NuGet.Config"

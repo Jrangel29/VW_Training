@@ -399,3 +399,4 @@ D:\Trabalhos\VW_Test_Training\Training\obj\Debug\net8.0\refint\Training.dll
 D:\Trabalhos\VW_Test_Training\Training\obj\Debug\net8.0\Training.pdb
 D:\Trabalhos\VW_Test_Training\Training\obj\Debug\net8.0\Training.genruntimeconfig.cache
 D:\Trabalhos\VW_Test_Training\Training\obj\Debug\net8.0\ref\Training.dll
+d:\Trabalhos\VW_Test_Training\Training\obj\Debug\net8.0\Training.sourcelink.json
