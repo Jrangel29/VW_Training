@@ -1686,19 +1686,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rangel\\.nuget\\packages\\": {}
+    "C:\\Users\\DKX4YW9\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
+      "projectUniqueName": "C:\\Users\\DKX4YW9\\desktop\\Joao_training\\VW_Training\\Training.csproj",
       "projectName": "Training",
-      "projectPath": "D:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
-      "packagesPath": "C:\\Users\\Rangel\\.nuget\\packages\\",
-      "outputPath": "D:\\Trabalhos\\VW_Test_Training\\Training\\obj\\",
+      "projectPath": "C:\\Users\\DKX4YW9\\desktop\\Joao_training\\VW_Training\\Training.csproj",
+      "packagesPath": "C:\\Users\\DKX4YW9\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DKX4YW9\\desktop\\Joao_training\\VW_Training\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rangel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DKX4YW9\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1763,7 +1763,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\DKX4YW9\\dotnet-sdk-8.0.101\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
