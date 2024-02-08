@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\DKX4YW9\\desktop\\Joao_training\\VW_Training\\Training.csproj": {}
+    "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj": {}
   },
   "projects": {
-    "c:\\Users\\DKX4YW9\\desktop\\Joao_training\\VW_Training\\Training.csproj": {
+    "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\DKX4YW9\\desktop\\Joao_training\\VW_Training\\Training.csproj",
+        "projectUniqueName": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj",
         "projectName": "Training",
-        "projectPath": "c:\\Users\\DKX4YW9\\desktop\\Joao_training\\VW_Training\\Training.csproj",
+        "projectPath": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj",
         "packagesPath": "C:\\Users\\DKX4YW9\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\DKX4YW9\\desktop\\Joao_training\\VW_Training\\obj\\",
+        "outputPath": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DKX4YW9\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,6 +57,26 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.2.1, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit.Runners": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.74, )"
             },
             "coverlet.collector": {
               "target": "Package",
