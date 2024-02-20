@@ -15,19 +15,34 @@ namespace VW_Training.Pages.QATests
     {
 
         public readonly Context _page;
-        public TextBoxTest(Context context) => _page = context;
-
-        private ILocator TabButton => _page.Page.Locator("text=Text Box");
-        private ILocator Username => _page.Page.Locator("#userName");
-        private ILocator UserEmail => _page.Page.Locator("#userEmail");
-        private ILocator CurrAddress => _page.Page.Locator("#currentAddress");
-        private ILocator PermAddress => _page.Page.Locator("#permanentAddress");
-        private ILocator Submit => _page.Page.Locator("text=Submit");
-
-        public async Task EnterTab() => TabButton.ClickAsync();
+        private readonly ILocator _TabButton;
+        private readonly ILocator _Username;
+        private readonly ILocator _UserEmail;
+        private readonly ILocator _CurrAddress;
+        private readonly ILocator _PermAddress;
+        private readonly ILocator _Submit;
         
-        public async Task Execution(string username, string email, string currentAddress, string permanentAddress) {
-
+        public TextBoxTest(Context context) {
+            _page = context;
+            _TabButton = _page.Page.Locator("text=Text Box");
+            _Username = _page.Page.Locator("#userName");
+            _UserEmail = _page.Page.Locator("#userEmail");
+            _CurrAddress = _page.Page.Locator("#currentAddress");
+            _PermAddress = _page.Page.Locator("#permanentAddress");
+            _Submit = _page.Page.Locator("text=Submit");
         }
+
+        
+        public async Task EnterTab () => await _TabButton.ClickAsync();
+        
+        
+        public async Task FillForm(string username, string email, string currentAddress, string permanentAddress) {
+            await _Username.FillAsync(username);
+            await _UserEmail.FillAsync(email);
+            await _CurrAddress.FillAsync(currentAddress);
+            await _PermAddress.FillAsync(permanentAddress);
+        }
+
+        public async Task SubmitForm() => await _Submit.ClickAsync();
     }
 }

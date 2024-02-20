@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Threading.Tasks;
 using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 using NUnit.Framework;
@@ -13,7 +14,12 @@ namespace Hook;
 public class Hooks {
     public readonly Context _context;
 
-    public Hooks(Context context) => _context = context; 
+    public Hooks(Context context) => _context = context;
+
+    [STAThread]
+    static void Main()
+    {
+    } 
 
     [BeforeTestRun]
     public static void InstallBrowsers() {
@@ -32,6 +38,11 @@ public class Hooks {
         _context.Page = await browser.NewPageAsync();
         await _context.Page.GotoAsync("https://demoqa.com/");
         await _context.Page.ClickAsync("text=Elements");
+    }
+
+    [AfterScenario]
+    public async Task AfterScenario() {
+        await _context.Page.CloseAsync();
     }
 
 }

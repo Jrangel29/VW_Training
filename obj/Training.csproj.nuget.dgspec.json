@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj": {}
+    "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj": {}
   },
   "projects": {
-    "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj": {
+    "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj",
+        "projectUniqueName": "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
         "projectName": "Training",
-        "projectPath": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj",
-        "packagesPath": "C:\\Users\\DKX4YW9\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\obj\\",
+        "projectPath": "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
+        "packagesPath": "C:\\Users\\Rangel\\.nuget\\packages\\",
+        "outputPath": "d:\\Trabalhos\\VW_Test_Training\\Training\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DKX4YW9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Rangel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -41,6 +41,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
+            },
+            "Microsoft.Playwright": {
+              "target": "Package",
+              "version": "[1.41.2, )"
             },
             "Microsoft.Playwright.NUnit": {
               "target": "Package",
@@ -99,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\DKX4YW9\\dotnet-sdk-8.0.101\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

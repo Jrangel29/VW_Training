@@ -136,7 +136,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Playwright/1.41.1": {
+      "Microsoft.Playwright/1.41.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
@@ -2072,10 +2072,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.Playwright/1.41.1": {
-      "sha512": "iBGvfzGhPntaVc8VZu8agzaRWSDUiLCGJYyrr2MTm8c1tfNbNZhj/aOgFsOPVt61RYCIhGTvwRv9mhl3hJ6GnQ==",
+    "Microsoft.Playwright/1.41.2": {
+      "sha512": "UtfjOhh52rDi5D7FTk0+9fWFgEO6mbOX3//YvO1yiuEFfCfe1/C9mkhnZkyzDmTSdox/FmDGZ5EmuG4murT5MQ==",
       "type": "package",
-      "path": "microsoft.playwright/1.41.1",
+      "path": "microsoft.playwright/1.41.2",
       "files": [
         ".nupkg.metadata",
         ".playwright/node/LICENSE",
@@ -2356,19 +2356,19 @@
         ".playwright/package/lib/vite/recorder/assets/index-b14c63fe.js",
         ".playwright/package/lib/vite/recorder/index.html",
         ".playwright/package/lib/vite/recorder/playwright-logo.svg",
-        ".playwright/package/lib/vite/traceViewer/assets/codeMirrorModule-ef3e69be.js",
-        ".playwright/package/lib/vite/traceViewer/assets/wsPort-ae643a36.js",
+        ".playwright/package/lib/vite/traceViewer/assets/codeMirrorModule-c1454a2e.js",
+        ".playwright/package/lib/vite/traceViewer/assets/wsPort-ee2830d7.js",
         ".playwright/package/lib/vite/traceViewer/assets/xtermModule-443332e6.js",
         ".playwright/package/lib/vite/traceViewer/codeMirrorModule.5d0f417c.css",
         ".playwright/package/lib/vite/traceViewer/codicon.79f233d0.ttf",
         ".playwright/package/lib/vite/traceViewer/index.1a1fe659.css",
-        ".playwright/package/lib/vite/traceViewer/index.854eefeb.js",
+        ".playwright/package/lib/vite/traceViewer/index.decad628.js",
         ".playwright/package/lib/vite/traceViewer/index.html",
         ".playwright/package/lib/vite/traceViewer/playwright-logo.svg",
         ".playwright/package/lib/vite/traceViewer/snapshot.html",
         ".playwright/package/lib/vite/traceViewer/sw.bundle.js",
+        ".playwright/package/lib/vite/traceViewer/uiMode.0d0d667b.js",
         ".playwright/package/lib/vite/traceViewer/uiMode.8b41a49d.css",
-        ".playwright/package/lib/vite/traceViewer/uiMode.a0522537.js",
         ".playwright/package/lib/vite/traceViewer/uiMode.html",
         ".playwright/package/lib/vite/traceViewer/wsPort.9c9a6767.css",
         ".playwright/package/lib/vite/traceViewer/xtermModule.6428296b.css",
@@ -2387,7 +2387,7 @@
         "icon.png",
         "lib/netstandard2.0/Microsoft.Playwright.dll",
         "lib/netstandard2.0/Microsoft.Playwright.xml",
-        "microsoft.playwright.1.41.1.nupkg.sha512",
+        "microsoft.playwright.1.41.2.nupkg.sha512",
         "microsoft.playwright.nuspec"
       ]
     },
@@ -6281,6 +6281,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.NET.Test.Sdk >= 17.6.0",
+      "Microsoft.Playwright >= 1.41.2",
       "Microsoft.Playwright.NUnit >= 1.41.1",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
@@ -6294,19 +6295,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DKX4YW9\\.nuget\\packages\\": {}
+    "C:\\Users\\Rangel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj",
+      "projectUniqueName": "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
       "projectName": "Training",
-      "projectPath": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\Training.csproj",
-      "packagesPath": "C:\\Users\\DKX4YW9\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\DKX4YW9\\Desktop\\Joao_Training\\VW_Training\\obj\\",
+      "projectPath": "d:\\Trabalhos\\VW_Test_Training\\Training\\Training.csproj",
+      "packagesPath": "C:\\Users\\Rangel\\.nuget\\packages\\",
+      "outputPath": "d:\\Trabalhos\\VW_Test_Training\\Training\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DKX4YW9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Rangel\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -6333,6 +6334,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.6.0, )"
+          },
+          "Microsoft.Playwright": {
+            "target": "Package",
+            "version": "[1.41.2, )"
           },
           "Microsoft.Playwright.NUnit": {
             "target": "Package",
@@ -6391,7 +6396,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\DKX4YW9\\dotnet-sdk-8.0.101\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
